@@ -33,18 +33,25 @@ footer {
     
 }
 
-.top-links{
-    display:flex;
-    flex-direction: row;
-    gap:15px;
-    margin-right: 200px;
-    margin-left: 200px;
+.uppermost-wrap {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 480px;
 }
 
-.top-right {
-    margin-left: auto;
-    
+.top-left-links {
+    display:flex;
+    gap:15px;
 }
+
+
+
+.top-right-links {
+    display: flex;
+    gap:15px;
+}
+
+
 
 footer {
     background-color: #1F2937;
@@ -57,8 +64,7 @@ footer {
 
 .second-header h1, p, button{
     color:white;
-    width:400px;
-    height: 200px;
+
 }
 
 .forza-milan {
@@ -77,10 +83,19 @@ footer {
 
 .upper-wrap {
     display:flex;
+    align-items: center;
+    gap:40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .second-header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.description {
+    width: 500px;
 }
